@@ -1,5 +1,7 @@
 package br.edu.eteczl.testeconexao.persistence;
 
+
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;

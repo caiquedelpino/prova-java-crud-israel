@@ -1,5 +1,7 @@
 package br.edu.eteczl.testeconexao.model;
 
+
+
 public class Comissionado {
 	private int id;
 	private float totalVenda;

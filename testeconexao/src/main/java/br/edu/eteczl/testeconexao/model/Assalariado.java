@@ -1,5 +1,7 @@
 package br.edu.eteczl.testeconexao.model;
 
+import javax.swing.JOptionPane;
+
 public class Assalariado {
 
 	private int id;
@@ -20,4 +22,10 @@ public class Assalariado {
 	public void setSalario(float salario) {
 		this.salario = salario;
 	}
+	
+	public float vencimento() {
+		float vencimento = Float.parseFloat(JOptionPane.showInputDialog(null, "Informe o vencimento?"));
+		return vencimento;
+	}
+	
 }

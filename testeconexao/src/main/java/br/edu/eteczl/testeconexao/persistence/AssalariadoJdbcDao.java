@@ -10,6 +10,7 @@ import com.mysql.jdbc.PreparedStatement;
 
 import br.edu.eteczl.testeconexao.model.Assalariado;
 
+
 public class AssalariadoJdbcDao {
 
 private Connection conn;

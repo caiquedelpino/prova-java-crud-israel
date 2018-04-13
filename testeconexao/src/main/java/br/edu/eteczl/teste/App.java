@@ -25,25 +25,27 @@ public class App
     public static void main( String[] args )
     {
         try {
-        	//Horista hor = new Horista();
-        	//hor.setId(1);
-        	//hor.setPrecoHora(200);
-        	//hor.setHorasTrabalhadas(20);
+        	Horista hor = new Horista();
+        	hor.setId(2);
+        	hor.setPrecoHora(2200);
+        	hor.setHorasTrabalhadas(220);
         	//Comissionado com = new Comissionado();
         	//com.setId(1);
         	//com.setTotalVenda(100);
         	//com.setTaxa(20);
         	//Assalariado ass = new Assalariado();
-        	//ass.setId(1);
-        	//ass.setSalario(300);
+        	//ass.setId(2);
+        	//ass.setSalario(500);
+        	//ass.setId(2);
+        	//ass.setSalario(400);
         	//Empregado emp = new Empregado();
         	//emp.setNome("Daniel");
         	//emp.setSobrenome("Lira");
         	//emp.setCpf("1111111");
         	//String cpf = "1111111";
 			Connection conn = JdbcUtil.getConnection();
-			//HoristaJdbcDao horDAO = new HoristaJdbcDao(conn);
-			//horDAO.salvar(hor);
+			HoristaJdbcDao horDAO = new HoristaJdbcDao(conn);
+			horDAO.salvar(hor);
 			//horDAO.excluir(1);
 			//horDAO.alterar(hor);
 			//horDAO.listar();
